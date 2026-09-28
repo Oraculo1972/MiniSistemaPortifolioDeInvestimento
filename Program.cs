@@ -252,7 +252,7 @@ namespace MiniSistemaPortifolioDeInvestimento
                     // DividendYield em percentual
                     if (prop.Name == "DividendYield" && valor is decimal dy)
                     {
-                        Console.WriteLine($"{prop.Name}: {dy:F2}%");
+                        Console.WriteLine($"{prop.Name}: {dy:P}");
                     }
                     // Valores monetários
                     else if (valor is decimal dec)
